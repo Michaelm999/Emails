@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    body {
+      background-color: #FAFAFA
+    }
+    #templateContainer {
+      background-color: #FFFFFF
+    }
+    #templatePreheader {
+      background-color: #e6e1e1;
+      height: 60px;
+    }
+    input{
+      display: none;
+    }
+    .preheaderContent{
+      font-size: 10px;
+    }
+    @media screen and (max-width:9999px){
+      .cboxcheck:checked + input + * .thumb-carousel{
+        height: auto !important;
+        max-height:none!important;
+        max-width:none!important;
+        line-height:0;
+      }
+      .thumb-carousel span {
+        font-size:0;
+        line-height:0;
+      }
+
+      .cboxcheck:checked + input + * .thumb-carousel .car-content{
+        display:none;
+        max-height:0px;
+        overflow:hidden;
+      }
+      .cbox0:checked + * .content-1,
+      .thumb-carousel .cbox1:checked + span .content-1,
+      .thumb-carousel .cbox2:checked + span .content-2,
+      .thumb-carousel .cbox3:checked + span .content-3,
+      .thumb-carousel .cbox4:checked + span .content-4,
+      .thumb-carousel .cbox5:checked + span .content-5
+      {
+        display:block!important;
+        max-height:none!important;
+        overflow:visible!important;
+      }
+
+
+      .thumb-carousel .thumb{
+        cursor:pointer;
+        display:inline-block !important;
+        width:17.5%;
+        margin:1% 0.61%;
+        border:2px solid #bbbbbb;
+      }
+      /* hide for thunderbird as it doesn't support checkbox toggling */
+      .moz-text-html .thumb {
+        display:none !important;
+      }
+      .thumb-carousel .thumb:hover{
+        border:2px solid #444444;
+      }
+      .cbox0:checked + * .thumb-1,
+      .thumb-carousel .cbox1:checked + span .thumb-1,
+      .thumb-carousel .cbox2:checked + span .thumb-2,
+      .thumb-carousel .cbox3:checked + span .thumb-3,
+      .thumb-carousel .cbox4:checked + span .thumb-4,
+      .thumb-carousel .cbox5:checked + span .thumb-5
+      {
+        border-color: #333333;
+      }
+
+      .thumb-carousel .thumb img{
+        width:100%;
+        height: auto;
+      }
+      .thumb-carousel img{
+        max-height: none !important;
+      }
+      .cboxcheck:checked + input + * .fallback{
+        display:none !important;
+        display:none;
+        max-height: 0px;
+        height: 0px;
+        overflow: hidden;
+      }
+    }
+
+    @media screen and (max-width:600px){
+      .car-table.responsive,
+      .car-table.responsive .thumb-carousel,
+      .car-table.responsive .thumb-carousel .car-content img,
+      .car-table.responsive .fallback .car-content img
+       {
+        width:100% !important;
+        height:auto;
+       }
+    }
+
+    /* Hide interactive from Yahoo! Mail iOS since it doesn't support nested label interactivity */
+    .yfix{}
+    @media screen yahoo and (max-width:600px){
+      .thumb-carousel{
+        display:none!important;
+      }
+      .fallback{
+        display:block!important;
+        height:auto!important;
+        max-height:none!important;
+      }
+    }
+</style>
+  </head>
+  <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    <center>
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            <tr>
+                <td align="center" valign="top">
+                      <!-- // Begin Template Preheader \\ -->
+                      <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader">
+                          <tr>
+                              <td valign="top" class="preheaderContent">
+
+                                <!-- // Begin Module: Standard Preheader \ -->
+                                  <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td valign="top">
+                                            <div mc:edit="std_preheader_content">
+                                              TAG Gallery: Upcoming Reception Opening!
+                                              </div>
+                                          </td>
+                                          <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+                    <td valign="top" width="190">
+                                            <div mc:edit="std_preheader_links">
+                                                Is this email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                              </div>
+                                          </td>
+                    <!-- *|END:IF|* -->
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                      </table>
+                      <!-- // End Template Preheader \\ -->
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        <tr>
+                            <td align="center" valign="top">
+                                  <!-- // Begin Template Header \\ -->
+                                  <!-- do not wrap with a form tag - prevents bottom thumbnails from working in IE -->
+                                  <input type="radio" class="cboxcheck" style="display:none !important;" checked>
+                                  <input type="radio" name="car-rd1" class="cbox0" style="display:none !important;" checked>
+                                  <!--<![endif]-->
+                                  <table class="car-table  responsive" cellpadding=0 cellspacing=0 border=0 width="450"><tr><td>
+                                  <div>
+                                  <!--[if !mso]><!-- -->
+                                  <div class="thumb-carousel " style="width:450px;height:0px;max-height:0px;max-width:0px;overflow:hidden!important;text-align:center">
+                                      <label>
+                                  <input type="radio" name="car-rd1" class="cbox3" style="display:none !important;">
+                                  <span>
+                                      <label>
+                                  <input type="radio" name="car-rd1" class="cbox2" style="display:none !important;">
+                                  <span>
+                                      <label>
+                                  <input type="radio" name="car-rd1" class="cbox1" style="display:none !important;">
+                                  <span>
+                                      <div class="content-1 car-content"><a href="https://www.taggallery.net/deborah-decker"><img src="https://static1.squarespace.com/static/58c32a05bf629a853350a231/5a0f54b471c10bf47af897c2/5a0f54f0e2c483c904e18871/1510954327868/Debroah_Decker_Shanell_OilonGlassine_67x36.jpg?format=300w" width=450 height=280 alt="" style="display:block;max-height:0" border=0></a></div>
+                                      <div class="content-2 car-content"><a href="https://www.taggallery.net/katie-crown"><img src="https://static1.squarespace.com/static/58c32a05bf629a853350a231/58c345463e00be4228a0ecd8/5a0f635af9619af3d08aa107/1510961461950/Crown_Katie_Agitated_+Mountain_watercolor_39x30.jpg?format=300w" width=450 height=280 alt="" style="display:block;max-height:0" border=0></a></div>
+                                      <div class="content-3 car-content"><a href="https://www.taggallery.net/joan-wynn"><img src="https://static1.squarespace.com/static/58c32a05bf629a853350a231/5978f189b3db2b5151e5a6ae/5a0f675341920216616efe66/1510959467884/_Wynn_Joan_Equilibrium_steel-patina_41__h_x_7.5_w_x_7.5_d.jpg?format=500w" width=450 height=280 alt="" style="display:block;max-height:0" border=0></a></div>
+                                        <span class="thumb thumb-1"><img src="https://static1.squarespace.com/static/58c32a05bf629a853350a231/5a0f54b471c10bf47af897c2/5a0f54f0e2c483c904e18871/1510954327868/Debroah_Decker_Shanell_OilonGlassine_67x36.jpg?format=300w" width="50" style="display:block;max-height:0;height: 116px;" border=0></span>
+                                  </span>
+                                  </label>
+                                        <span class="thumb thumb-2"><img src="https://static1.squarespace.com/static/58c32a05bf629a853350a231/58c345463e00be4228a0ecd8/5a0f635af9619af3d08aa107/1510961461950/Crown_Katie_Agitated_+Mountain_watercolor_39x30.jpg?format=300w" width="50" style="display:block;max-height:0" border=0></span>
+                                  </span>
+                                  </label>
+                                        <span class="thumb thumb-3"><img src="https://static1.squarespace.com/static/58c32a05bf629a853350a231/5978f189b3db2b5151e5a6ae/5a0f675341920216616efe66/1510959467884/_Wynn_Joan_Equilibrium_steel-patina_41__h_x_7.5_w_x_7.5_d.jpg?format=500w" width="50" style="display:block;max-height:0" border=0></span>
+                                  </span>
+                                  </label>
+                                      </div>
+                                  <!--<![endif]-->
+                                  <div class="fallback ">
+                                  <div class="car-content"><a href="https://www.taggallery.net/deborah-decker"><img src="https://static1.squarespace.com/static/58c32a05bf629a853350a231/5a0f54b471c10bf47af897c2/5a0f54f0e2c483c904e18871/1510954327868/Debroah_Decker_Shanell_OilonGlassine_67x36.jpg?format=300w" width=450 alt="."style="display:block;" border=0></a></div>
+                                  </div>
+                                  </div>
+                                  </td></tr></table>
+                                  <!-- // End Template Header \\ -->
+                              </td>
+                          </tr>
+                        <tr>
+                            <td align="center" valign="top">
+                                  <!-- // Begin Template Body \\ -->
+                                          </td>
+                                      </tr>
+                                    <tr>
+                                        <td colspan="3" valign="top" class="bodyContent">
+
+                                              <!-- // Begin Module: Standard Content \\ -->
+                                              <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                  <tr style="background-color: #0df196;">
+                                                      <td valign="top">
+                                                          <div>
+                                                            <p style="margin: 20px;font-size: 17px;line-height: 1.5;color: #676;text-align: center;">Opening Reception for the latest TAG Gallery for our three latest artists:<br><strong>KATIE CROWN, DEBORAH DECKER, JOAN WYNN
+                                                                <br>Saturday, November 25, 6 - 9 pm</strong></p>
+
+                                                              <div style="text-align: center;margin: 20px;">
+                                                                <a href="https://www.taggallery.net/" target="_blank" style="text-decoration: none;display: inline;background: rgba(249, 224, 10, 0.7);color: white;padding: 9px 16px 10px;">Check It Out Here!</a>
+                                                              </div>
+                                                          </div>
+                          </td>
+                                                  </tr>
+                                              </table>
+                                              <!-- // End Module: Standard Content \\ -->
+                                              <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F4F4F4;border-top: 1px solid #FFFFFF;border-collapse: collapse !important;">
+                                                  <tr>
+                                                      <td valign="top" class="footerContent" mc:edit="footer_content00" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-family: Verdana;font-size: 13px;line-height: 150%;padding-top: 20px;padding-right: 20px;padding-left: 20px;text-align: center;">
+                                                          <a href="https://twitter.com/taggallery" target="_blank" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/taggallery/?ref=br_rs" target="_blank" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">Friend us on Facebook</a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/taggallery/" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">Follow on Instagram</a>&nbsp;
+                                                      </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td valign="top" class="footerContent" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-family: Helvetica;font-size: 13px;line-height: 150%;padding-top: 20px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;text-align: center;" mc:edit="footer_content01">
+                                                        <strong>Gallery Hours:</strong>
+                                                        <br>Tuesday - Saturday, 11 am - 5 pm
+                                                        <br>Telephone: 310.829.9556
+                                                        <br>5458 Wilshire Blvd, Los Angeles, CA 90036
+                                                        <br />
+                                                          <a href="mailto:info@taggallery.net" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">info@taggallery.net</a>
+                                                      </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td valign="top" class="footerContent" style="padding-top: 20px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-family: Helvetica;font-size: 10px;line-height: 150%;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: center;" mc:edit="footer_content02">
+                                                        <a href="#" target="_blank" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">Change Subscription</a>
+                                                      </td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                  </table>
+                                  <!-- // End Template Body \\ -->
+
+                              </td>
+                          </tr>
+                          </tr>
+                      </table>
+                      <br />
+                  </td>
+              </tr>
+          </table>
+      </center>
+  </body>
+</html>
