@@ -30,7 +30,6 @@
       display:none;
     }
 
-
     /*for screens smaller than 480px*/
     @media only screen and (max-width: 480px), (max-device-width: 480px) {
 
@@ -187,97 +186,22 @@
 
 			/* Template Styles */
 
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+			/* /\/\/\/\/\/\/\/\/\/\ COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
 
-			/**
-			* @tab Page
-			* @section background color
-			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
-			* @theme page
-			*/
 			body, #backgroundTable{
-				/*@editable*/ background-color:#FAFAFA;
+				background-color:#FAFAFA;
 			}
 
-			/**
-			* @tab Page
-			* @section email border
-			* @tip Set the border for your email.
-			*/
 			#templateContainer{
-				/*@editable*/ border: 1px solid #DDDDDD;
+				border: 1px solid #DDDDDD;
 			}
-
-			/**
-			* @tab Page
-			* @section heading 1
-			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
-			* @style heading 1
-			*/
 			h1, .h1{
-				/*@editable*/ color:#202020;
+				color:#202020;
 				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:34px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Page
-			* @section heading 2
-			* @tip Set the styling for all second-level headings in your emails.
-			* @style heading 2
-			*/
-			h2, .h2{
-				/*@editable*/ color:#202020;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:30px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Page
-			* @section heading 3
-			* @tip Set the styling for all third-level headings in your emails.
-			* @style heading 3
-			*/
-			h3, .h3{
-				/*@editable*/ color:#202020;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:26px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Page
-			* @section heading 4
-			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
-			* @style heading 4
-			*/
-			h4, .h4{
-				/*@editable*/ color:#202020;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:22px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
+				font-family:Arial;
+				font-size:34px;
+				font-weight:bold;
+				line-height:100%;
 				margin-top:0;
 				margin-right:0;
 				margin-bottom:10px;
@@ -285,81 +209,50 @@
 				/*@editable*/ text-align:left;
 			}
 
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
 
-			/**
-			* @tab Header
-			* @section preheader style
-			* @tip Set the background color for your email's preheader area.
-			* @theme page
-			*/
+			/* /\/\/\/\/\/\/\/\/\/\ PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+
 			#templatePreheader{
-				/*@editable*/ background-color:#FAFAFA;
+				background-color:#FAFAFA;
 			}
 
-			/**
-			* @tab Header
-			* @section preheader text
-			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
-			*/
 			.preheaderContent div{
-				/*@editable*/ color:#505050;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:10px;
-				/*@editable*/ line-height:100%;
-				/*@editable*/ text-align:left;
+				color:#505050;
+				font-family:Arial;
+				font-size:10px;
+				line-height:100%;
+				text-align:left;
 			}
 
-			/**
-			* @tab Header
-			* @section preheader link
-			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
-			*/
 			.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
+				color:#336699;
+				font-weight:normal;
+				text-decoration:underline;
 			}
 
 
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+			/* /\/\/\/\/\/\/\/\/\/\ STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
 
-			/**
-			* @tab Header
-			* @section header style
-			* @tip Set the background color and border for your email's header area.
-			* @theme header
-			*/
 			#templateHeader{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border-bottom:0;
+				background-color:#FFFFFF;
+				border-bottom:0;
 			}
 
-			/**
-			* @tab Header
-			* @section header text
-			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
-			*/
 			.headerContent{
-				/*@editable*/ color:#202020;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:34px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				/*@editable*/ padding:0;
-				/*@editable*/ text-align:center;
-				/*@editable*/ vertical-align:middle;
+				color:#202020;
+				font-family:Arial;
+				font-size:34px;
+				font-weight:bold;
+				line-height:100%;
+				padding:0;
+				text-align:center;
+				vertical-align:middle;
 			}
 
-			/**
-			* @tab Header
-			* @section header link
-			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
-			*/
 			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
+				color:#336699;
+				font-weight:normal;
+				text-decoration:underline;
 			}
 
 			#headerImage{
@@ -367,33 +260,21 @@
 				max-width:600px;
 			}
 
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+			/* /\/\/\/\/\/\/\/\/\/\ STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
 
 			#templateContainer, .bodyContent{
 				/*@editable*/ background-color:#FFFFFF;
 			}
 
 			.bodyContent div{
-				/*@editable*/ color:#505050;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:14px;
-				/*@editable*/ line-height:150%;
-				/*@editable*/ text-align:left;
+				color:#505050;
+				font-family:Arial;
+				font-size:14px;
+				line-height:150%;
+				text-align:left;
 			}
 
-			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
-				 color:#336699;
-				 font-weight:normal;
-				 text-decoration:underline;
-			}
-
-			.bodyContent img{
-				display:inline;
-				height:auto;
-			}
-
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
-
+			/* /\/\/\/\/\/\/\/\/\/\ STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
 
 			#templateFooter{
 				background-color:#FFFFFF;
@@ -413,34 +294,6 @@
 				font-weight:normal;
 				text-decoration:underline;
 			}
-
-			.footerContent img{
-				display:inline;
-			}
-
-			#social{
-				background-color:#FAFAFA;
-				border:0;
-			}
-
-
-			#social div{
-				/*@editable*/ text-align:center;
-			}
-
-
-			#utility{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border:0;
-			}
-
-			#utility div{
-				/*@editable*/ text-align:center;
-			}
-
-			#monkeyRewards img{
-				max-width:190px;
-			}
 		</style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -448,12 +301,11 @@
         	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
             	<tr>
                 	<td align="center" valign="top">
-                        <!-- // Begin Template Preheader \\ -->
+                        <!-- // Preheader \\ -->
                         <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader">
                             <tr>
                                 <td valign="top" class="preheaderContent">
-
-                                	<!-- // Begin Module: Standard Preheader \ -->
+                            
                                     <table border="0" cellpadding="10" cellspacing="0" width="100%">
                                     	<tr>
                                         	<td valign="top">
@@ -465,7 +317,7 @@
                                             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
 											<td valign="top" width="190">
                                             	<div mc:edit="std_preheader_links">
-                                                	Is this email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                                	Functions Not Working?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
                                                 </div>
                                             </td>
 											<!-- *|END:IF|* -->
@@ -482,7 +334,7 @@
                                     <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6c6c6c" style="width: 100% !important; table-layout:fixed;">
                                       <tr>
                                         <td valign="top" align="center">
-                                          <div class="wrapper" style="min-width: 640px;">
+                                          <div class="wrapper" style="min-width: 600px;background-color: rgb(254, 255, 27);">
                                             <table id="CarouselWrapper" width="600" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" class="shrink" style="width:600px; margin:0 auto;">
                                               <tr>
                                                 <td>
@@ -601,7 +453,7 @@
                                     	<tr>
                                         	<td colspan="3" valign="top" class="bodyContent">
 
-                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <!-- // Standard Content \\ -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr style="background-color: #ffff1a;">
                                                         <td valign="top">
@@ -616,7 +468,7 @@
 														</td>
                                                     </tr>
                                                 </table>
-                                                <!-- // End Module: Standard Content \\ -->
+                                                <!-- // FOOTER \\ -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F4F4F4;border-top: 1px solid #FFFFFF;border-collapse: collapse !important;">
                                                     <tr>
                                                         <td valign="top" class="footerContent" mc:edit="footer_content00" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-family: Verdana;font-size: 13px;line-height: 150%;padding-top: 20px;padding-right: 20px;padding-left: 20px;text-align: center;">
