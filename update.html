@@ -28,7 +28,6 @@
     .yahoo {
       display:none;
     }
-
     /*for screens smaller than 480px*/
     @media only screen and (max-width: 480px), (max-device-width: 480px) {
 
@@ -46,7 +45,6 @@
         visibility: none !important;
         overflow: hidden !important;
       }
-
     }
 
     @media only screen and (-webkit-min-device-pixel-ratio: 1), (min--moz-device-pixel-ratio: 1), (max-width: 480px), (max-device-width: 480px) {
@@ -237,28 +235,6 @@
 				border-bottom:0;
 			}
 
-			.headerContent{
-				color:#202020;
-				font-family:Arial;
-				font-size:34px;
-				font-weight:bold;
-				line-height:100%;
-				padding:0;
-				text-align:center;
-				vertical-align:middle;
-			}
-
-			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-				color:#336699;
-				font-weight:normal;
-				text-decoration:underline;
-			}
-
-			#headerImage{
-				height:auto;
-				max-width:600px;
-			}
-
 			/* Body Styling  */
 
 			#templateContainer, .bodyContent{
@@ -308,18 +284,18 @@
                                     <table border="0" cellpadding="10" cellspacing="0" width="100%">
                                     	<tbody><tr>
                                         	<td valign="top">
-                                            	<div mc:edit="std_preheader_content">
+                                            	<div>
                                                 A while ago, you signed up to learn about our newest application, Rivo.<br>
                                                 I have some news for you.
                                                 </div>
                                             </td>
                                             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
 											                      <td valign="top" width="190">
-                                            	<div mc:edit="std_preheader_links">
+                                            	<div>
                                                 Email Not Working? <a href="https://michaelm999.github.io/Emails/update.html" target="_blank">Click Here!</a>.
                                                 </div>
                                             </td>
-											<!-- *|END:IF|* -->
+											                     <!-- *|END:IF|* -->
                                         </tr>
                                     </tbody>
                                   </table>
@@ -337,7 +313,7 @@
                                       <tbody>
                                        <tr>
                                         <td valign="top" align="center">
-                                          <div class="wrapper" style="background-color: rgb(254, 255, 24);padding-top: 30px;">
+                                          <div class="wrapper" style="background-color: white;padding-top: 30px;">
                                             <!-- Start Images -->
                                             <table id="CarouselWrapper" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" class="shrink" style="width:600px; margin:0 auto;">
                                               <tbody><tr>
@@ -398,7 +374,8 @@
                                                                                             <img src="http://a3.mzstatic.com/us/r30/Purple71/v4/c1/c9/c4/c1c9c4fb-168e-944d-25c8-2d9a7fb55b06/screen696x696.jpeg" width="320">
                                                                                           </td>
                                                                                         </tr>
-                                                                                      </tbody></table>
+                                                                                      </tbody>
+                                                                                     </table>
                                                                                     </td>
                                                                                   </tr>
                                                                                   <tr>
@@ -461,7 +438,7 @@
 
                                                 <!-- // Standard Content \\ -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
-                                                    <tbody><tr style="background-color: #ffff1a;">
+                                                    <tbody><tr style="background-color: #ffffff;">
                                                         <td valign="top">
                                                             <div>
                                                               <p style="margin: 20px;font-size: 17px;line-height: 1.5;color: #676;text-align: center;">Los Angeles' hottest application has just been redesigned! See above how the new event pages look.
