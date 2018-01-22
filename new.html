@@ -33,7 +33,9 @@ height: 100%;
   ELEMENTS
 ------------------------------------- */
 a { color: #2BA6CB;}
-
+#email-link{
+  font-size: 12px;
+}
 .btn {
 text-decoration:none;
 color: #FFF;
@@ -151,7 +153,6 @@ ul.sidebar li a {
 text-decoration:none;
 color: #666;
 padding:10px 16px;
-/* 	font-weight:bold; */
 margin-right:10px;
 /* 	text-align:center; */
 cursor:pointer;
@@ -167,7 +168,6 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 
 /* ---------------------------------------------------
   RESPONSIVENESS
-  Nuke it from orbit. It's the only way to be sure.
 ------------------------------------------------------ */
 
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
@@ -226,7 +226,9 @@ div[class="column"] { width: auto!important; float:none!important;}
 table.social div[class="column"] {
   width:auto!important;
 }
-
+#email-link{
+  font-size: 14px;
+}
 }
 </style>
 </head>
@@ -251,8 +253,7 @@ table.social div[class="column"] {
    <td></td>
   </tr>
  </table>
-
- <table class="body-wrap" >
+ <table class="body-wrap">
   <tr>
    <td></td>
    <td class="container" align="" bgcolor="#FFFFFF">
@@ -260,7 +261,7 @@ table.social div[class="column"] {
      <table>
       <tr>
        <td>
-        <h1>Newsletter!</h1>
+        <h1>Breaking News!</h1>
          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
          <p><img src="https://placehold.it/600x300" /></p>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -268,32 +269,30 @@ table.social div[class="column"] {
       </tr>
      </table>
     </div>
-
-   <div class="content">
-    <table>
-     <tr>
-      <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
-       <td>
-        <h4>Title Ipsum</h4>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-         <a class="btn">Click Here for More &raquo;</a>
-      </td>
-     </tr>
-    </table>
-   </div>
-   <div class="content">
+    <div class="content">
      <table>
       <tr>
        <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
         <td>
-         <h4>Title Ipsum</h4>
+         <h4>Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <a class="btn">Click Here for More &raquo;</a>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="content">
+     <table>
+      <tr>
+       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
+        <td>
+         <h4>Title</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
          <a class="btn">Click Here for More &raquo;</a>
        </td>
       </tr>
      </table>
    </div>
-
    <div class="content">
      <table>
       <tr>
@@ -308,7 +307,7 @@ table.social div[class="column"] {
       <tr>
        <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
         <td>
-         <h4>Title Ipsum</h4>
+         <h4>Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
           <a class="btn">Click Here for More &raquo;</a>
        </td>
@@ -320,7 +319,7 @@ table.social div[class="column"] {
       <tr>
        <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
         <td>
-         <h4>Title Ipsum</h4>
+         <h4>Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
           <a class="btn">Click Here for More &raquo;</a>
         </td>
@@ -345,12 +344,12 @@ table.social div[class="column"] {
            </table>
           </div>
          <div class="column">
-          <table  align="left">
+          <table align="left">
            <tr>
             <td>
              <h5>Contact Info:</h5>
                <p>Phone: <strong>310.454.2138</strong><br />
-                 Email: <strong><a href="emailto:michael_mazzarella@hotmail.com">michael_mazzarella@hotmail.com</a></strong>
+                  Email: <strong><a href="emailto:michael_mazzarella@hotmail.com" id="email-link">michael_mazzarella@hotmail.com</a></strong>
                </p>
            </td>
           </tr>
