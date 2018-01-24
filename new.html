@@ -5,9 +5,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Newsletter Template</title>
 <style media="screen">
-/* -------------------------------------
-  GLOBAL
-------------------------------------- */
+
+/* GLOBAL */
 * {
 margin:0;
 padding:0;
@@ -29,9 +28,7 @@ height: 100%;
 }
 
 
-/* -------------------------------------
-  ELEMENTS
-------------------------------------- */
+/* ELEMENTS */
 a { color: #2BA6CB;}
 #email-link{
   font-size: 12px;
@@ -59,7 +56,6 @@ color: #2BA6CB;
 }
 
 table.social {
-/* 	padding:15px; */
 background-color: #ebebeb;
 
 }
@@ -82,23 +78,17 @@ display:block;
 width:100%;
 }
 
-/* -------------------------------------
-  HEADER
-------------------------------------- */
+/* HEADER */
 
 .header.container table td.logo { padding: 15px; }
 .header.container table td.label { padding: 15px; padding-left:0px;}
 
 
-/* -------------------------------------
-  BODY
-------------------------------------- */
+/* BODY */
 table.body-wrap { width: 100%;}
 
 
-/* -------------------------------------
-  FOOTER
-------------------------------------- */
+/* FOOTER */
 table.footer-wrap { width: 100%;	clear:both!important;
 }
 .footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
@@ -109,17 +99,14 @@ font-weight: bold;
 }
 
 
-/* -------------------------------------
-  TYPOGRAPHY
-------------------------------------- */
-h1,h2,h3,h4,h5,h6 {
+/* TYPOGRAPHY */
+
+h1,h4,h5,h6 {
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
 }
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+h1 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
 
 h1 { font-weight:200; font-size: 44px;}
-h2 { font-weight:200; font-size: 37px;}
-h3 { font-weight:500; font-size: 27px;}
 h4 { font-weight:500; font-size: 23px;}
 h5 { font-weight:900; font-size: 17px;}
 h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
@@ -140,9 +127,8 @@ margin-left:5px;
 list-style-position: inside;
 }
 
-/* -------------------------------------
-  SIDEBAR
-------------------------------------- */
+/* SIDEBAR */
+
 ul.sidebar {
 background:#ebebeb;
 display:block;
@@ -162,15 +148,12 @@ display:block;
 margin:0;
 }
 ul.sidebar li a.last { border-bottom-width:0px;}
-ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+ul.sidebar li a h1,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
 
 
+/* RESPONSIVENESS */
 
-/* ---------------------------------------------------
-  RESPONSIVENESS
------------------------------------------------------- */
-
-/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone */
 .container {
 display:block!important;
 max-width:600px!important;
@@ -190,7 +173,7 @@ display:block;
 .content table { width: 100%; }
 
 
-/* Odds and ends */
+/* Other */
 .column {
 width: 300px;
 float:left;
@@ -208,15 +191,10 @@ min-width: 279px;
 float:left;
 }
 
-/* Be sure to place a .clear element after each set of columns, just to be safe */
+/* A .clear element after each set of columns, just to be safe */
 .clear { display: block; clear: both; }
 
-
-/* -------------------------------------------
-  PHONE
-  For clients that support media queries.
-  Nothing fancy.
--------------------------------------------- */
+/* FOR PHONES */
 @media only screen and (max-width: 600px) {
 
 a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
@@ -272,7 +250,7 @@ table.social div[class="column"] {
     <div class="content">
      <table>
       <tr>
-       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
+       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" width="100px"/></td>
         <td>
          <h4>Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -284,7 +262,7 @@ table.social div[class="column"] {
     <div class="content">
      <table>
       <tr>
-       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
+       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" width="100px"/></td>
         <td>
          <h4>Title</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -293,19 +271,10 @@ table.social div[class="column"] {
       </tr>
      </table>
    </div>
-   <div class="content">
-     <table>
-      <tr>
-       <td>
-        <p class="callout">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. <a href="#">Do it Now! &raquo;</a> </p>
-       </td>
-      </tr>
-     </table>
-    </div>
     <div class="content">
      <table>
       <tr>
-       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
+       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" width="100px"/></td>
         <td>
          <h4>Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -317,7 +286,7 @@ table.social div[class="column"] {
     <div class="content">
      <table>
       <tr>
-       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" /></td>
+       <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://placehold.it/75x75" width="100px"/></td>
         <td>
          <h4>Title</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
