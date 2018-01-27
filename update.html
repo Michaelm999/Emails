@@ -270,6 +270,17 @@
 				font-weight:normal;
 				text-decoration:underline;
 			}
+
+      @media screen and (max-width: 630px){
+          /* This sets elements to 100% width and fixes the height issues too, a god send */
+          *[class="100p"] {width:100% !important; height:auto !important;}
+          *[id="templateContainer"] {width:100% !important; font-size: 8px;height:auto !important;}
+          *[class="wrapper"] {width:100% !important; height:auto !important;}
+          /* Centers content on mobile */
+          *[class="center"] {text-align:center !important; width:100% !important; height:auto !important;}
+
+
+      }
 		</style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -281,17 +292,15 @@
                         <table border="0" cellpadding="10" cellspacing="0" width="500" id="templatePreheader">
                             <tbody>
                               <tr>
-                                <td valign="top" class="preheaderContent">
+                                <td valign="top" class="100p" class="preheaderContent">
                                     <table border="0" cellpadding="10" cellspacing="0" width="100%">
                                     	<tbody><tr>
-                                        	<td valign="top">
-                                            	<div>
+                                        	<td valign="top" class="100p">
                                                 A while ago, you signed up to learn about our newest application, Rivo.<br>
                                                 I have some news for you.
-                                                </div>
                                             </td>
                                             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-											                      <td valign="top" width="190">
+											                      <td valign="top" class="100p" width="180">
                                             	<div>
                                                 Email Not Working? <a href="https://michaelm999.github.io/Emails/update.html" target="_blank">Click Here!</a>.
                                                 </div>
@@ -438,7 +447,7 @@
                                         	<td colspan="3" valign="top" class="bodyContent">
 
                                                 <!-- // Standard Content \\ -->
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" class="100p">
                                                     <tbody><tr style="background-color: #ffffff;">
                                                         <td valign="top">
                                                             <div>
@@ -454,7 +463,7 @@
                                                     </tr>
                                                 </tbody></table>
                                                 <!-- // FOOTER \\ -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F4F4F4;border-top: 1px solid #FFFFFF;border-collapse: collapse !important;">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="100p" id="templateFooter" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F4F4F4;border-top: 1px solid #FFFFFF;border-collapse: collapse !important;">
                                                     <tbody><tr>
                                                         <td valign="top" class="footerContent" mc:edit="footer_content00" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-family: Verdana;font-size: 13px;line-height: 150%;padding-top: 20px;padding-right: 20px;padding-left: 20px;text-align: center;">
                                                             <a href="file:///Users/michaelm/code/email_template/*%7CTWITTER:PROFILEURL%7C*" target="_blank" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="file:///Users/michaelm/code/email_template/*%7CFACEBOOK:PROFILEURL%7C*" target="_blank" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">Friend us on Facebook</a>&nbsp;&nbsp;&nbsp;<a href="file:///Users/michaelm/code/email_template/*%7CFORWARD%7C*" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">Forward to Friend</a>&nbsp;
