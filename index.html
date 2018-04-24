@@ -26,7 +26,7 @@
     }
 .col-container {
     display: table;
-    width: 100%;
+    width:100%;
     margin: 35px 0px;
     background-color: cyan;
     border: 1px solid black;
@@ -46,6 +46,19 @@ img {
 #rivo {
   width: 125px
 }
+/* Responsiveness */
+@media screen and (max-width: 630px){
+    /* This sets elements to 100% width and fixes the height issues too, a god send */
+    .intro {width:100% !important; height:auto !important;}
+
+    /* For the 2x2 stack */
+    .col {display: block; border: none; width:100% !important;}
+    .col-container {border: none; margin: 0px;}
+    *[class=".100padleftright"] {width:100% !important;}
+    *[class="100padtopbottom"] {width:100% !important;}
+}
+}
+
 </style>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -60,26 +73,36 @@ img {
     <h3>Good to see you. Here is a collection of HTML Emails I have put together for demonstration purposes only.</h3>
     <h2>Enjoy!</h2>
    </div>
-  <div class="col-container">
-    <div class="col">
+  <div class="col-container 100padtopbottom">
+    <div class="col 100padleftright">
       <a href="reception.html" target="_blank"><img alt="Image art" src="artshow.jpg"></a><br>
       <a href="reception.html" target="_blank">Upcoming Event</a>
     </div>
-    <div class="col">
+    <div class="col 100padleftright">
       <a href="steamboat.html" target="_blank"><img alt="Steamboat Springs" src="https://elitealliance.com/wp-content/uploads/Steamboat-Springs-Colorado.jpg"></a><br>
       <a href="steamboat.html" target="_blank">Travel Opportunity</a>
     </div>
     </div>
-  <div class="col-container">
-      <div class="col">
+  <div class="col-container 100padtopbottom">
+      <div class="col 100padleftright">
         <a href="update.html" target="_blank"><img alt="Rivo Logo" src="rivo.png" title="rivo logo" id="rivo"></a><br>
         <a href="update.html" target="_blank">News Update</a>
       </div>
-      <div class="col">
+      <div class="col 100padleftright">
         <a href="skirball.html" target="_blank"><img alt="Skirball Image" src="https://i.pinimg.com/736x/fc/9e/3e/fc9e3e5ac87b9868d0f459763b7d7bc6--cultural-center-logo-google.jpg" title="LA Free Day"></a><br>
         <a href="skirball.html" target="_blank">Company Announcement</a>
       </div>
     </div>
+    <div class="col-container 100padtopbottom">
+        <div class="col 100padleftright">
+          <a href="memorial.html" target="_blank"><img alt="Rivo Logo" src="http://rah1.com/wp-content/uploads/2018/01/RAH_Small-1.png" title="Rah1 logo"></a><br>
+          <a href="memorial.html" target="_blank">Fundraising</a>
+        </div>
+        <div class="col 100padleftright">
+          <a href="bati.html" target="_blank"><img alt="Bati Logo" src="https://cdn.shopify.com/s/files/1/1947/0279/files/newlogo.11.7_0cac0556-d60f-4922-b238-8a651f2f574e_100x@2x.jpg?v=1512181276" title="Bati Logo"></a><br>
+          <a href="bati.html" target="_blank">Company Sale</a>
+        </div>
+      </div>
    </center>
   </body>
 </html>
