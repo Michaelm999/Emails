@@ -208,6 +208,25 @@
 				font-weight:normal;
 				text-decoration:underline;
 			}
+
+
+      				/* Removing blue links in Apple Mail */
+      				a[x-apple-data-detectors] {
+      				color: inherit !important;
+      				text-decoration: none !important;
+      				font-size: inherit !important;
+      				font-family: inherit !important;
+      				font-weight: inherit !important;
+      				line-height: inherit !important;
+      				}
+      				/* Overriding minimum font sizes on devices */
+      				body,
+      				table,
+      				td,
+      				a {
+      				-ms-text-size-adjust: 100%;
+      				-webkit-text-size-adjust: 100%;
+      				}
 		</style>
 
 	</head>
@@ -230,7 +249,7 @@
                                                 </div>
                                             </td>
                                             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-											                      <td valign="top" width="190">
+											                      <td valign="top">
                                             	<div>
                                                 Email Not Working? <a href="https://michaelm999.github.io/Emails/update.html" target="_blank">Click Here!</a>.
                                                 </div>

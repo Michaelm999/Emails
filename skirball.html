@@ -18,12 +18,29 @@
         .ExternalClass * {line-height: 115%;}
         /* Reset done */
 
+				/* Removing blue links in Apple Mail */
+				a[x-apple-data-detectors] {
+				color: inherit !important;
+				text-decoration: none !important;
+				font-size: inherit !important;
+				font-family: inherit !important;
+				font-weight: inherit !important;
+				line-height: inherit !important;
+				}
+				/* Overriding minimum font sizes on devices */
+				body,
+				table,
+				td,
+				a {
+				-ms-text-size-adjust: 100%;
+				-webkit-text-size-adjust: 100%;
+				}
 				@media screen and (max-width: 630px){
-						/* This sets elements to 100% width and fixes the height issues too, a god send */
+						/* This sets elements to 100% width and fixes the height issues too. */
 						*[class="100p"] {width:100% !important; height:auto !important;}
 
 						/* For the 2x2 stack */
-						*[class="condensed"] {padding-bottom:20px !important; display: block;}
+						*[class="condensed"] {padding-bottom:20px !important; display: block; width:100% !important; text-align: center !important;}
 
 						/* Centers content on mobile */
 						*[class="center"] {text-align:center !important; width:100% !important; height:auto !important;}
@@ -35,7 +52,7 @@
 						*[class="100padtopbottom"] {width:100% !important; padding:20px 0px 20px 0px;}
 
 				}
-				@media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+				@media only screen and (min-width: 375px) and (max-width: 413px) { /* iPhone 6 and 6+ */
             *[class="100p"] {
                 width: 100% !important;
             }
@@ -103,8 +120,8 @@
                                         	<td align="center" valign="top" class="condensed" style="padding-top: 20px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 260px;">
                                             	<table border="0" cellpadding="20" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
                                                 	<tr>
-                                                    	<td class="100padleftright" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;font-size: 14px;line-height: 150%;padding-top: 0;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: left;">
-                                                        	<img src="https://www.skirball.org/sites/default/files/styles/content_desktop/public/social_good_salon_hotel_usa.jpg?itok=uKMG5iih&timestamp=1500073852" style="max-width: 260px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" class="columnImage">
+                                                    	<td class="100padleftright" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;font-size: 14px;line-height: 150%;padding-top: 0;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: center;">
+                                                        	<img src="https://www.skirball.org/sites/default/files/styles/content_desktop/public/social_good_salon_hotel_usa.jpg?itok=uKMG5iih&timestamp=1500073852" align="center" style="max-width: 260px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" class="columnImage">
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -123,7 +140,7 @@
                                         	<td align="center" valign="top" class="condensed" style="padding-top: 20px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 260px;">
                                             	<table border="0" cellpadding="20" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
                                                 	<tr>
-                                                    	<td class="100padleftright" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;font-size: 14px;line-height: 150%;padding-top: 0;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: left;">
+                                                    	<td class="100padleftright" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #505050;font-family: Helvetica;font-size: 14px;line-height: 150%;padding-top: 0;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;text-align: center;">
                                                         	<img src="https://www.skirball.org/sites/default/files/styles/content_desktop/public/17.8-pst-free-days.jpg?itok=72B9pnSU&timestamp=1504731793" style="max-width: 260px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" class="columnImage">
                                                         </td>
                                                     </tr>

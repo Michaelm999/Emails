@@ -19,6 +19,24 @@
         .ExternalClass * {line-height: 115%;}
         /* End reset */
 
+        				/* Removing blue links in Apple Mail */
+        				a[x-apple-data-detectors] {
+        				color: inherit !important;
+        				text-decoration: none !important;
+        				font-size: inherit !important;
+        				font-family: inherit !important;
+        				font-weight: inherit !important;
+        				line-height: inherit !important;
+        				}
+        				/* Overriding minimum font sizes on devices */
+        				body,
+        				table,
+        				td,
+        				a {
+        				-ms-text-size-adjust: 100%;
+        				-webkit-text-size-adjust: 100%;
+        				}
+                
         /* These are our tablet/medium screen media queries */
         @media screen and (max-width: 630px){
 
